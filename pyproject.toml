@@ -1,0 +1,16 @@
+[project]
+name = "llama-vision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow>=12.0.0",
+    "protobuf>=6.33.2",
+    "sentencepiece>=0.2.1",
+    "torch",
+    "transformers>=4.57.3",
+]
+
+[tool.uv.sources]
+torch = { url = "https://download.pytorch.org/whl/cu130/torch-2.9.0%2Bcu130-cp313-cp313-win_amd64.whl" }
