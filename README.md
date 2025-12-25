@@ -1,22 +1,5 @@
 # LlamaVision-llama-3.2-1b
 
----
-
-language: en
-license: llama3.2
-tags:
-
-* multimodal
-* image-to-text
-* vision-language
-* llama
-* clip
-datasets:
-* jackyhate/text-to-image-2M
-pipeline_tag: image-to-text
-library_name: transformers
-
----
 
 ## Model Overview
 
