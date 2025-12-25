@@ -8,7 +8,7 @@ from model import LlamaVisionModel
 llama_name = "meta-llama/Llama-3.2-1B"
 clip_name = "openai/clip-vit-large-patch14"
 device = "cuda"
-external_image_path = r".//bahubali_poster.jpg"
+external_image_path = r".//image//bahubali_poster.jpg"
 
 # Load Models
 tokenizer = AutoTokenizer.from_pretrained(llama_name)
