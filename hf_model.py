@@ -81,3 +81,5 @@ def push_to_hf_hub(repo_id):
 if __name__ == "__main__":
     # export_full_model()
     push_to_hf_hub("iamthehimansh/LlamaVision-llama-3.3-1b")
+    print("Follow back kar lodu")
+    print("Nhi kiya to masla ho jayega")
